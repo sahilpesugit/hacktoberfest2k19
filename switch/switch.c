@@ -1,8 +1,6 @@
 #include<conio.h>
 #include <stdio.h>
 #include<stdio.h>
-
-
 int main()
 {
     int num,ch;
@@ -34,8 +32,7 @@ int main()
             exit(0);
             break;
         }
-    }
-    }       
+    }      
     
 
     return 0;
@@ -48,7 +45,7 @@ int incr(int x)
 }
 int decr(int x)
 {
-    x=x-1;
+    x=x-2;
     return x;
 }
 
