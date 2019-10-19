@@ -5,7 +5,7 @@ me.geometry("354x460")
 me.title("CALCULATOR")
 melabel = Label(me,text="CALCULATOR",bg='White',font=("Courier New",30,'bold'))
 melabel.pack(side=TOP)
-me.config(background='Dark gray')
+me.config(background='Dark grey')
 
 textin=StringVar()#nentered by the user
 operator=""#used for the math symbols
@@ -15,22 +15,22 @@ def clickbut(number):   #lambda:clickbut(1)
      operator=operator+str(number)
      textin.set(operator)
 
-def equlbut():
+def equalbut():
      global operator
      add=double(eval(char(operator)))
      textin.set(add)
      operator=''
-def equlbut():
+def equalbut():
      global operator
      sub=double(eval(char(operator)))
      textin.set(sub)
      operator=''
-def equlbut():
+def equalbut():
      global operator
      mul=double(eval(char(operator)))
      textin.set(mul)
      operator=''
-def equlbut():
+def equalbut():
      global operator
      div=double(eval(char(operator)))
      textin.set(div)
